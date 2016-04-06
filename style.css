@@ -1,20 +1,13 @@
- a {text-decoration: none;}
-@font-face {
-    font-family: 'BTTF'; /*a name to be used later*/
-    src: url('BTTF.ttf'); /*URL to font*/
-}
-
 body { 
     text-align: center;
-    background-color: #00FF00;
-    font-family:'BTTF';
+    background-color: blue;
+    font-family:sans-serif;
     margin-top:100px;
-    color:#FFFFFF;
-    background-image: url("resources/stars-06.jpg");
+    color:black;
 }
 
 .boxed {
-     background-color: #00FF00;
+     background-color: red;
      text-align: center;
      margin-left:auto;
      margin-right: auto;
