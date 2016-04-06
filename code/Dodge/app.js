@@ -25,10 +25,10 @@ if (keyDown(RIGHT_ARROW)) {
   player.position.x = player.position.x + 8;
 }
 
-enemy.position.y = enemy.position.y += 20;
-enemy2.position.y = enemy.position.y += 10;
-enemy3.position.y = enemy.position.y += 5;
-enemy4.position.y = enemy.position.y += 50;
+enemy.position.y = enemy.position.y += 10;
+enemy2.position.y = enemy.position.y += 5;
+enemy3.position.y = enemy.position.y += 2;
+enemy4.position.y = enemy.position.y += 20;
 
 if (enemy.position.y > 500) {
   enemy.position.y = 0;
@@ -87,5 +87,5 @@ else if (player.overlap(enemy4)) {
   draw();
 }
 
-  drawSprites();
+  draw();
 }
