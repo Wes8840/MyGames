@@ -1,0 +1,30 @@
+ a {text-decoration: none;}
+@font-face {
+    font-family: 'BTTF'; /*a name to be used later*/
+    src: url('BTTF.ttf'); /*URL to font*/
+}
+
+body { 
+    text-align: center;
+    background-color: #00FF00;
+    font-family:'BTTF';
+    margin-top:100px;
+    color:#FFFFFF;
+    background-image: url("resources/stars-06.jpg");
+}
+
+.boxed {
+     background-color: #00FF00;
+     text-align: center;
+     margin-left:auto;
+     margin-right: auto;
+     width:800px;
+}
+.main {
+    background-color: rgba(0,255,0,0.6);
+    text-align: center;
+     margin-left:auto;
+     margin-right: auto;
+  /*  display: flex ; */
+   
+}
