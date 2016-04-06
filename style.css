@@ -25,6 +25,8 @@ body {
 ul {
     list-style-type: none;
     margin: 0;
+    width: 500px;
+    height:40px;
     padding: 0;
     overflow: hidden;
     border: 1px solid black;
