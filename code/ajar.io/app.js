@@ -1,6 +1,10 @@
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
 var x = 250;
+var food1;
+var food2;
+var food3;
+var food4;
 var circle
 var y = 250;
 var mouseX = 250;
@@ -42,10 +46,10 @@ function calculatePosition() {
 function drawScreen() {
     clearCanvas();
     calculatePosition();
-    drawCircle(foodPositions[0][0], foodPositions[0][1], 10, "Green");
-    drawCircle(foodPositions[1][0], foodPositions[1][1], 10, "Grey");
-    drawCircle(foodPositions[2][0], foodPositions[2][1], 10, "Cyan");
-    drawCircle(foodPositions[3][0], foodPositions[3][1], 10, "Yellow");
+    food1 = drawCircle(foodPositions[0][0], foodPositions[0][1], 10, "Green");
+    food2 = drawCircle(foodPositions[1][0], foodPositions[1][1], 10, "Grey");
+    food3 = drawCircle(foodPositions[2][0], foodPositions[2][1], 10, "Cyan");
+    food4 = drawCircle(foodPositions[3][0], foodPositions[3][1], 10, "Yellow");
     drawCircle(x, y, 40, "Blue");
     setTimeout(drawScreen, 1000/60);
     
