@@ -53,8 +53,20 @@ function drawScreen() {
     drawCircle(x, y, 40, "Blue");
     setTimeout(drawScreen, 1000/60);
     
-    if (circle.overlap(foodPositions)) {
-    foodPositions.remove
+    if (circle.overlap(food1)) {
+    food1.style.visibility = 'visible';
+
+}
+    if (circle.overlap(food2)) {
+    food2.style.visibility = 'visible';
+
+}
+    if (circle.overlap(food3)) {
+    food3.style.visibility = 'visible';
+
+}
+    if (circle.overlap(food4)) {
+    food4.style.visibility = 'visible';
 
 }
 
