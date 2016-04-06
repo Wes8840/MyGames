@@ -45,6 +45,7 @@ function keyCode(event) {
 }
     ball.bounce(player);
     ball.bounce(player2);
+    player.bounce(player2);
     
     if(ball.overlap(goal)) {    
     alert("GOAL!!!");
