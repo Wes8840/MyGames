@@ -37,6 +37,7 @@ li a {
     color: #666;
 }
 li {
+    padding:20px;
     float: left;
 }
 li a:hover:not(.active) {
